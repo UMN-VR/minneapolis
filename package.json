@@ -1,0 +1,17 @@
+{
+  "name": "@umn-vr/minneapolis",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The University of Minnesota Minneapolis campus tour as a FOSS Earth scene: 48 panoramas from Northrop Mall to the West Bank and the Mississippi.",
+  "license": "AGPL-3.0-only",
+  "exports": {
+    "./scene.json": "./scene.json",
+    "./campus.json": "./campus.json"
+  },
+  "files": [
+    "scene.json",
+    "campus.json",
+    "README.md",
+    "LICENSE"
+  ]
+}
