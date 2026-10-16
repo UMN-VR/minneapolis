@@ -2,7 +2,7 @@
   "format": "foss-earth-scene",
   "version": 1,
   "id": "umn-minneapolis",
-  "revision": "f3ec1399a013",
+  "revision": "b88f4bab9d01",
   "title": "University of Minnesota Minneapolis: campus tour",
   "requiredExtensions": [],
   "extensions": {
@@ -12,7 +12,7 @@
       "placements": "tools/twin-cities/placements.json",
       "positions": "Capture positions are approximate. They come from YouVisit's one point per stop, or from the centre of the building a panorama shows; each panorama says which. Building centres are from OpenStreetMap, © OpenStreetMap contributors, ODbL 1.0.",
       "north": "0 of 60 panoramas have north set; the others face an arbitrary direction.",
-      "campus": "The panoramas of umn-twin-cities revision 390caad2f0d6 listed in this campus's campus.json, written by the tour's tools/campus-scenes.mjs."
+      "campus": "The panoramas of umn-twin-cities revision d1ca5c3b123c listed in this campus's campus.json, written by the tour's tools/campus-scenes.mjs."
     },
     "foss-earth.preview-sheets": {
       "sheets": [
@@ -6424,7 +6424,12 @@
       "capture": {
         "longitudeDeg": -93.234272,
         "latitudeDeg": 44.9762821,
-        "height": null,
+        "height": {
+          "meters": 236.303,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 65
       },
       "imagePose": {
@@ -6434,7 +6439,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -6501,7 +6506,12 @@
       "capture": {
         "longitudeDeg": -93.2345402,
         "latitudeDeg": 44.9782705,
-        "height": null,
+        "height": {
+          "meters": 249.657,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 65
       },
       "imagePose": {
@@ -6511,7 +6521,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -6550,7 +6560,12 @@
       "capture": {
         "longitudeDeg": -93.2353686,
         "latitudeDeg": 44.9764784,
-        "height": null,
+        "height": {
+          "meters": 266.207,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 50
       },
       "imagePose": {
@@ -6560,7 +6575,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -6598,7 +6613,12 @@
       "capture": {
         "longitudeDeg": -93.2362247,
         "latitudeDeg": 44.9752803,
-        "height": null,
+        "height": {
+          "meters": 246.368,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 65
       },
       "imagePose": {
@@ -6608,7 +6628,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -6690,7 +6710,12 @@
       "capture": {
         "longitudeDeg": -93.2362247,
         "latitudeDeg": 44.9752803,
-        "height": null,
+        "height": {
+          "meters": 246.368,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 60
       },
       "imagePose": {
@@ -6700,7 +6725,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 15,
         "offsetM": 25,
@@ -6738,7 +6763,12 @@
       "capture": {
         "longitudeDeg": -93.2362247,
         "latitudeDeg": 44.9752803,
-        "height": null,
+        "height": {
+          "meters": 246.368,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 60
       },
       "imagePose": {
@@ -6748,7 +6778,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 12.99,
         "northM": -7.5,
         "offsetM": 25,
@@ -6793,7 +6823,12 @@
       "capture": {
         "longitudeDeg": -93.2362247,
         "latitudeDeg": 44.9752803,
-        "height": null,
+        "height": {
+          "meters": 246.368,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 60
       },
       "imagePose": {
@@ -6803,7 +6838,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": -12.99,
         "northM": -7.5,
         "offsetM": 25,
@@ -6841,7 +6876,12 @@
       "capture": {
         "longitudeDeg": -93.2371688,
         "latitudeDeg": 44.975766,
-        "height": null,
+        "height": {
+          "meters": 245.401,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 65
       },
       "imagePose": {
@@ -6851,7 +6891,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -6926,7 +6966,12 @@
       "capture": {
         "longitudeDeg": -93.2371688,
         "latitudeDeg": 44.975766,
-        "height": null,
+        "height": {
+          "meters": 245.401,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 150
       },
       "imagePose": {
@@ -6936,7 +6981,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 15,
         "offsetM": 25,
@@ -6976,7 +7021,12 @@
       "capture": {
         "longitudeDeg": -93.2396381,
         "latitudeDeg": 44.9785518,
-        "height": null,
+        "height": {
+          "meters": 241.213,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 50
       },
       "imagePose": {
@@ -6986,7 +7036,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -7024,7 +7074,12 @@
       "capture": {
         "longitudeDeg": -93.2400345,
         "latitudeDeg": 44.9731123,
-        "height": null,
+        "height": {
+          "meters": 227.14,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 50
       },
       "imagePose": {
@@ -7034,7 +7089,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -7080,7 +7135,12 @@
       "capture": {
         "longitudeDeg": -93.2344866,
         "latitudeDeg": 44.9751968,
-        "height": null,
+        "height": {
+          "meters": 248.862,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 65
       },
       "imagePose": {
@@ -7090,7 +7150,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -7151,7 +7211,12 @@
       "capture": {
         "longitudeDeg": -93.2333842,
         "latitudeDeg": 44.974516,
-        "height": null,
+        "height": {
+          "meters": 230.295,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 50
       },
       "imagePose": {
@@ -7161,7 +7226,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -7199,7 +7264,12 @@
       "capture": {
         "longitudeDeg": -93.2365733,
         "latitudeDeg": 44.9750564,
-        "height": null,
+        "height": {
+          "meters": 244.829,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 65
       },
       "imagePose": {
@@ -7209,7 +7279,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -7252,7 +7322,12 @@
       "capture": {
         "longitudeDeg": -93.2373297,
         "latitudeDeg": 44.9740583,
-        "height": null,
+        "height": {
+          "meters": 247.988,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 65
       },
       "imagePose": {
@@ -7262,7 +7337,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -7324,7 +7399,12 @@
       "capture": {
         "longitudeDeg": -93.2373297,
         "latitudeDeg": 44.9740583,
-        "height": null,
+        "height": {
+          "meters": 247.988,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 60
       },
       "imagePose": {
@@ -7334,7 +7414,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 15,
         "offsetM": 25,
@@ -7373,7 +7453,12 @@
       "capture": {
         "longitudeDeg": -93.2373297,
         "latitudeDeg": 44.9740583,
-        "height": null,
+        "height": {
+          "meters": 247.988,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 60
       },
       "imagePose": {
@@ -7383,7 +7468,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": -15,
         "offsetM": 25,
@@ -7421,7 +7506,12 @@
       "capture": {
         "longitudeDeg": -93.2307261,
         "latitudeDeg": 44.9722861,
-        "height": null,
+        "height": {
+          "meters": 253.101,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 65
       },
       "imagePose": {
@@ -7431,7 +7521,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -7502,7 +7592,12 @@
       "capture": {
         "longitudeDeg": -93.2307261,
         "latitudeDeg": 44.9722861,
-        "height": null,
+        "height": {
+          "meters": 253.101,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 60
       },
       "imagePose": {
@@ -7512,7 +7607,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 15,
         "offsetM": 25,
@@ -7551,7 +7646,12 @@
       "capture": {
         "longitudeDeg": -93.2307261,
         "latitudeDeg": 44.9722861,
-        "height": null,
+        "height": {
+          "meters": 253.101,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 60
       },
       "imagePose": {
@@ -7561,7 +7661,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 15,
         "northM": 0,
         "offsetM": 25,
@@ -7600,7 +7700,12 @@
       "capture": {
         "longitudeDeg": -93.2307261,
         "latitudeDeg": 44.9722861,
-        "height": null,
+        "height": {
+          "meters": 253.101,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 60
       },
       "imagePose": {
@@ -7610,7 +7715,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": -15,
         "offsetM": 25,
@@ -7649,7 +7754,12 @@
       "capture": {
         "longitudeDeg": -93.2307261,
         "latitudeDeg": 44.9722861,
-        "height": null,
+        "height": {
+          "meters": 253.101,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 60
       },
       "imagePose": {
@@ -7659,7 +7769,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": -15,
         "northM": 0,
         "offsetM": 25,
@@ -7697,7 +7807,12 @@
       "capture": {
         "longitudeDeg": -93.2354093,
         "latitudeDeg": 44.9729654,
-        "height": null,
+        "height": {
+          "meters": 252.942,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 65
       },
       "imagePose": {
@@ -7707,7 +7822,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -7761,7 +7876,12 @@
       "capture": {
         "longitudeDeg": -93.2354093,
         "latitudeDeg": 44.9729654,
-        "height": null,
+        "height": {
+          "meters": 252.942,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 60
       },
       "imagePose": {
@@ -7771,7 +7891,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 15,
         "offsetM": 25,
@@ -7810,7 +7930,12 @@
       "capture": {
         "longitudeDeg": -93.2354093,
         "latitudeDeg": 44.9729654,
-        "height": null,
+        "height": {
+          "meters": 252.942,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 60
       },
       "imagePose": {
@@ -7820,7 +7945,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": -15,
         "offsetM": 25,
@@ -7859,7 +7984,12 @@
       "capture": {
         "longitudeDeg": -93.2393038,
         "latitudeDeg": 44.9731172,
-        "height": null,
+        "height": {
+          "meters": 230.198,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 65
       },
       "imagePose": {
@@ -7869,7 +7999,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -7922,7 +8052,12 @@
       "capture": {
         "longitudeDeg": -93.2441747,
         "latitudeDeg": 44.9716143,
-        "height": null,
+        "height": {
+          "meters": 236.186,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 65
       },
       "imagePose": {
@@ -7932,7 +8067,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -7981,7 +8116,12 @@
       "capture": {
         "longitudeDeg": -93.2441747,
         "latitudeDeg": 44.9716143,
-        "height": null,
+        "height": {
+          "meters": 236.186,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 150
       },
       "imagePose": {
@@ -7991,7 +8131,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 15,
         "offsetM": 25,
@@ -8029,7 +8169,12 @@
       "capture": {
         "longitudeDeg": -93.2448184,
         "latitudeDeg": 44.9703543,
-        "height": null,
+        "height": {
+          "meters": 244.402,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 65
       },
       "imagePose": {
@@ -8039,7 +8184,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -8100,7 +8245,12 @@
       "capture": {
         "longitudeDeg": -93.2446121,
         "latitudeDeg": 44.9704925,
-        "height": null,
+        "height": {
+          "meters": 249.664,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 50
       },
       "imagePose": {
@@ -8110,7 +8260,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -8148,7 +8298,12 @@
       "capture": {
         "longitudeDeg": -93.2424649,
         "latitudeDeg": 44.9704366,
-        "height": null,
+        "height": {
+          "meters": 249.615,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 50
       },
       "imagePose": {
@@ -8158,7 +8313,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -8207,7 +8362,12 @@
       "capture": {
         "longitudeDeg": -93.2425119,
         "latitudeDeg": 44.9693051,
-        "height": null,
+        "height": {
+          "meters": 223.86,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 100
       },
       "imagePose": {
@@ -8217,7 +8377,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -8266,7 +8426,12 @@
       "capture": {
         "longitudeDeg": -93.2423186,
         "latitudeDeg": 44.9704834,
-        "height": null,
+        "height": {
+          "meters": 249.605,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 150
       },
       "imagePose": {
@@ -8276,7 +8441,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -8315,7 +8480,12 @@
       "capture": {
         "longitudeDeg": -93.2297873,
         "latitudeDeg": 44.9751588,
-        "height": null,
+        "height": {
+          "meters": 252.934,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 65
       },
       "imagePose": {
@@ -8325,7 +8495,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -8386,7 +8556,12 @@
       "capture": {
         "longitudeDeg": -93.2297873,
         "latitudeDeg": 44.9751588,
-        "height": null,
+        "height": {
+          "meters": 252.934,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 60
       },
       "imagePose": {
@@ -8396,7 +8571,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 15,
         "offsetM": 25,
@@ -8435,7 +8610,12 @@
       "capture": {
         "longitudeDeg": -93.2297873,
         "latitudeDeg": 44.9751588,
-        "height": null,
+        "height": {
+          "meters": 252.934,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 60
       },
       "imagePose": {
@@ -8445,7 +8625,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": -15,
         "offsetM": 25,
@@ -8484,7 +8664,12 @@
       "capture": {
         "longitudeDeg": -93.2258391,
         "latitudeDeg": 44.9764567,
-        "height": null,
+        "height": {
+          "meters": 226.66,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 65
       },
       "imagePose": {
@@ -8494,7 +8679,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -8546,7 +8731,12 @@
       "capture": {
         "longitudeDeg": -93.2245517,
         "latitudeDeg": 44.976487,
-        "height": null,
+        "height": {
+          "meters": 223.902,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 65
       },
       "imagePose": {
@@ -8556,7 +8746,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -8596,7 +8786,12 @@
       "capture": {
         "longitudeDeg": -93.2536912,
         "latitudeDeg": 44.9807825,
-        "height": null,
+        "height": {
+          "meters": 200.989,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 65
       },
       "imagePose": {
@@ -8606,7 +8801,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -8658,7 +8853,12 @@
       "capture": {
         "longitudeDeg": -93.2618838,
         "latitudeDeg": 44.9757795,
-        "height": null,
+        "height": {
+          "meters": 226.683,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 50
       },
       "imagePose": {
@@ -8668,7 +8868,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -8706,7 +8906,12 @@
       "capture": {
         "longitudeDeg": -93.2294548,
         "latitudeDeg": 44.9708325,
-        "height": null,
+        "height": {
+          "meters": 245.721,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 65
       },
       "imagePose": {
@@ -8716,7 +8921,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -8793,7 +8998,12 @@
       "capture": {
         "longitudeDeg": -93.2294548,
         "latitudeDeg": 44.9708325,
-        "height": null,
+        "height": {
+          "meters": 245.721,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 60
       },
       "imagePose": {
@@ -8803,7 +9013,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 15,
         "offsetM": 25,
@@ -8841,7 +9051,12 @@
       "capture": {
         "longitudeDeg": -93.2313193,
         "latitudeDeg": 44.9782663,
-        "height": null,
+        "height": {
+          "meters": 227.002,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 50
       },
       "imagePose": {
@@ -8851,7 +9066,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -8889,7 +9104,12 @@
       "capture": {
         "longitudeDeg": -93.2294548,
         "latitudeDeg": 44.9708325,
-        "height": null,
+        "height": {
+          "meters": 245.721,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 60
       },
       "imagePose": {
@@ -8899,7 +9119,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 12.99,
         "northM": -7.5,
         "offsetM": 25,
@@ -8937,7 +9157,12 @@
       "capture": {
         "longitudeDeg": -93.2294548,
         "latitudeDeg": 44.9708325,
-        "height": null,
+        "height": {
+          "meters": 245.721,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 60
       },
       "imagePose": {
@@ -8947,7 +9172,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": -12.99,
         "northM": -7.5,
         "offsetM": 25,
@@ -8985,7 +9210,12 @@
       "capture": {
         "longitudeDeg": -93.2277703,
         "latitudeDeg": 44.9751361,
-        "height": null,
+        "height": {
+          "meters": 257.777,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 65
       },
       "imagePose": {
@@ -8995,7 +9225,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
@@ -9053,7 +9283,12 @@
       "capture": {
         "longitudeDeg": -93.2277703,
         "latitudeDeg": 44.9751361,
-        "height": null,
+        "height": {
+          "meters": 257.777,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 150
       },
       "imagePose": {
@@ -9063,7 +9298,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 15,
         "offsetM": 25,
@@ -9102,7 +9337,12 @@
       "capture": {
         "longitudeDeg": -93.2353971,
         "latitudeDeg": 44.9766819,
-        "height": null,
+        "height": {
+          "meters": 262.147,
+          "datum": "WGS84-ellipsoid",
+          "uncertaintyMeters": 2.01,
+          "source": "Build-time Google Photorealistic 3D Tiles, 2026-10-16: top of the finest geometry on the vertical through the capture coordinate (leaf geometric error 2.006 m). WGS84 ellipsoid from Google's earth-centred coordinates; no datum conversion. Data Google. The orb's ground reference: the surface there, or a roof where the coordinate is on a building; not a measured camera height."
+        },
         "horizontalAccuracyMeters": 65
       },
       "imagePose": {
@@ -9112,7 +9352,7 @@
         "aligned": false
       },
       "marker": {
-        "mode": "ground-relative",
+        "mode": "capture-relative",
         "eastM": 0,
         "northM": 0,
         "offsetM": 25,
